@@ -1,0 +1,14 @@
+server:
+    port: 8761 # default 8761
+
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+
+    instance:
+        prefer-ip-address: true
+
+spring:
+    application:
+        name: around-me-eureka
